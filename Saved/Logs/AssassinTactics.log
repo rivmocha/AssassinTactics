@@ -5990,3 +5990,1710 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.21-08.00.23:359][593]AssetCheck: New page: 에셋 저장:  다수의 에셋
 [2022.09.21-08.00.23:359][593]LogContentValidation: Display: Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter 유효성 검사 중
 [2022.09.21-08.00.23:359][593]LogContentValidation: Display: Blueprint /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode 유효성 검사 중
+[2022.09.21-08.01.45:128][159]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.01.45:135][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.01.45:136][159]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:01:45)
+[2022.09.21-08.01.45:136][159]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.01.45:149][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012688s)
+[2022.09.21-08.01.45:150][159]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.01.45:150][159]LogPlayLevel: PIE: World Init took: (0.001331s)
+[2022.09.21-08.01.45:150][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.014143s)
+[2022.09.21-08.01.45:196][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.09.21-08.01.45:197][159]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2022.09.21-08.01.45:197][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.01.45:197][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.01.45:197][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.01.45:197][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.01.45:197][159]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.01.45:197][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.01.45:197][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.01.45:197][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.01.45:198][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.01.45:198][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.01.45:198][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.01.45:198][159]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.01.45:199][159]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.01.45:199][159]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.01.45:229][159]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.01.45:229][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.01.45:229][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.01.45:229][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.01.45:230][159]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.01.45:230][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.01.45:230][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.01.45:231][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.01.45:231][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.01.45:231][159]LogInit: FAudioDevice initialized.
+[2022.09.21-08.01.45:231][159]LogAudio: Display: Audio Device (ID: 63) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.01.45:278][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.01.45:279][159]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.01.45:282][159]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.01.45
+[2022.09.21-08.01.45:282][159]LogWorld: Bringing up level for play took: 0.003262
+[2022.09.21-08.01.45:283][159]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2022.09.21-08.01.45:286][159]PIE: Error: SetInputMode_GameOnly 는 유효 플레이어 컨트롤러를 'PlayerController' 타깃으로 기대합니다.
+[2022.09.21-08.01.45:291][159]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.01.45:293][159]PIE: 에디터에서 플레이 총 시작 시간 0.161초입니다.
+[2022.09.21-08.01.45:295][159]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.02.27:666][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.02.27:666][697]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.02.27:666][697]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.02.27:669][697]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.02.27:670][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.02.27:689][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.02.27:729][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.02.27:775][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.02.27:776][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.02.27:783][697]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.09.21-08.02.27:825][698]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2022.09.21-08.02.57:610][454]BlueprintLog: New page: Assassin_HUD 컴파일
+[2022.09.21-08.02.57:678][454]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2022.09.21-08.02.57:945][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.02.57:949][467]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD9EB1D9794DA2337A9EAB898AD463287D.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.02.58:030][467]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.02.58:030][467]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.02.58:128][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.02.58:132][472]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD330B8545447B8F47BA105BBDDBB47B22.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.02.58:196][472]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.02.58:196][472]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.03.27:880][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.03.27:884][247]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTree922C37DB473AD0188B3717BCF09FA8E2.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.03.27:898][247]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.03.27:898][247]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.03.31:658][469]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.03.31:665][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.03.31:665][469]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:03:31)
+[2022.09.21-08.03.31:665][469]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.03.31:675][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010354s)
+[2022.09.21-08.03.31:676][469]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.03.31:677][469]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2022.09.21-08.03.31:677][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011820s)
+[2022.09.21-08.03.31:723][469]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2022.09.21-08.03.31:724][469]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2022.09.21-08.03.31:724][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.03.31:724][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.03.31:725][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.03.31:725][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.03.31:725][469]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.03.31:725][469]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.03.31:725][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.03.31:725][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.03.31:725][469]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.03.31:725][469]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.03.31:725][469]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.03.31:725][469]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.03.31:726][469]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.03.31:726][469]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.03.31:752][469]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.03.31:752][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.03.31:752][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.03.31:752][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.03.31:753][469]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.03.31:753][469]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.03.31:753][469]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.03.31:754][469]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.03.31:754][469]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.03.31:754][469]LogInit: FAudioDevice initialized.
+[2022.09.21-08.03.31:754][469]LogAudio: Display: Audio Device (ID: 64) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.03.31:810][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.03.31:810][469]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.03.31:813][469]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.03.31
+[2022.09.21-08.03.31:814][469]LogWorld: Bringing up level for play took: 0.003658
+[2022.09.21-08.03.31:814][469]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2022.09.21-08.03.31:818][469]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.09.21-08.03.31:818][469]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.03.31:819][469]PIE: 에디터에서 플레이 총 시작 시간 0.156초입니다.
+[2022.09.21-08.03.31:820][469]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.03.37:475][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.03.37:475][802]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.03.37:476][802]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.03.37:479][802]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.03.37:479][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.03.37:492][802]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.03.37:531][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.03.37:576][802]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.21-08.03.37:576][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.03.37:577][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.03.37:584][802]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.09.21-08.03.37:598][803]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2022.09.21-08.03.38:673][865]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.03.38:680][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.03.38:680][865]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:03:38)
+[2022.09.21-08.03.38:680][865]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.03.38:691][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011066s)
+[2022.09.21-08.03.38:692][865]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.03.38:692][865]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2022.09.21-08.03.38:692][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.012047s)
+[2022.09.21-08.03.38:737][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2022.09.21-08.03.38:738][865]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.03.38:738][865]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.03.38:738][865]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.03.38:738][865]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.03.38:738][865]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.03.38:738][865]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.03.38:739][865]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.03.38:739][865]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.03.38:764][865]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.03.38:765][865]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.03.38:765][865]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.03.38:765][865]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.03.38:765][865]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.03.38:765][865]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.03.38:765][865]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.03.38:766][865]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.03.38:766][865]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.03.38:766][865]LogInit: FAudioDevice initialized.
+[2022.09.21-08.03.38:766][865]LogAudio: Display: Audio Device (ID: 65) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.03.38:806][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.03.38:806][865]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.03.38:809][865]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.03.38
+[2022.09.21-08.03.38:810][865]LogWorld: Bringing up level for play took: 0.002824
+[2022.09.21-08.03.38:810][865]LogOnline: OSS: Creating online subsystem instance for: :Context_91
+[2022.09.21-08.03.38:813][865]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.09.21-08.03.38:813][865]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.03.38:814][865]PIE: 에디터에서 플레이 총 시작 시간 0.136초입니다.
+[2022.09.21-08.03.38:815][865]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.03.42:586][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.03.42:586][ 88]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.03.42:586][ 88]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.03.42:589][ 88]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.03.42:590][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.03.42:597][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.03.42:637][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.03.42:679][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.03.42:680][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.03.42:688][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2022.09.21-08.03.42:703][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2022.09.21-08.03.48:955][460]BlueprintLog: New page: BP_RangedController 컴파일
+[2022.09.21-08.03.49:024][460]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2022.09.21-08.03.49:304][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BP_RangedController" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BP_RangedController.uasset" SILENT=true
+[2022.09.21-08.03.49:316][473]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BP_RangedController442577114F609DEDD403E2A22DA2C26C.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BP_RangedController.uasset'
+[2022.09.21-08.03.49:328][473]AssetCheck: New page: 에셋 저장:  BP_RangedController
+[2022.09.21-08.03.49:328][473]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/BP_RangedController.BP_RangedController 유효성 검사 중
+[2022.09.21-08.03.51:133][578]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.03.51:139][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.03.51:139][578]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:03:51)
+[2022.09.21-08.03.51:139][578]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.03.51:150][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010222s)
+[2022.09.21-08.03.51:150][578]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.03.51:151][578]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2022.09.21-08.03.51:151][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011333s)
+[2022.09.21-08.03.51:196][578]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2022.09.21-08.03.51:197][578]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.03.51:197][578]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.03.51:197][578]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.03.51:197][578]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.03.51:197][578]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.03.51:197][578]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.03.51:199][578]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.03.51:199][578]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.03.51:224][578]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.03.51:224][578]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.03.51:224][578]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.03.51:224][578]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.03.51:225][578]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.03.51:225][578]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.03.51:225][578]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.03.51:226][578]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.03.51:226][578]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.03.51:226][578]LogInit: FAudioDevice initialized.
+[2022.09.21-08.03.51:226][578]LogAudio: Display: Audio Device (ID: 66) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.03.51:267][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.03.51:267][578]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.03.51:270][578]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.03.51
+[2022.09.21-08.03.51:270][578]LogWorld: Bringing up level for play took: 0.002836
+[2022.09.21-08.03.51:270][578]LogOnline: OSS: Creating online subsystem instance for: :Context_92
+[2022.09.21-08.03.51:274][578]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2022.09.21-08.03.51:275][578]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.03.51:276][578]PIE: 에디터에서 플레이 총 시작 시간 0.139초입니다.
+[2022.09.21-08.04.03:947][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.04.03:947][324]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.04.03:947][324]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.04.03:951][324]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.04.03:951][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.04.03:966][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.04.04:005][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.04.04:050][324]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.21-08.04.04:050][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.04.04:051][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.04.04:064][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.09.21-08.04.04:099][325]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2022.09.21-08.04.09:109][613]BlueprintLog: New page: Assassin_HUD 컴파일
+[2022.09.21-08.04.09:174][613]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2022.09.21-08.04.09:505][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.04.09:510][630]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD517BA8EF46E79CD809EDB5BE25C1D474.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.04.09:524][630]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.04.09:524][630]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.04.11:322][731]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.04.11:328][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.04.11:328][731]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:04:11)
+[2022.09.21-08.04.11:329][731]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.04.11:338][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009006s)
+[2022.09.21-08.04.11:338][731]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.04.11:339][731]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2022.09.21-08.04.11:339][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010115s)
+[2022.09.21-08.04.11:384][731]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2022.09.21-08.04.11:384][731]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2022.09.21-08.04.11:384][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.04.11:384][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.04.11:384][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.04.11:384][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.04.11:384][731]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.04.11:384][731]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.04.11:384][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.04.11:384][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.04.11:385][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.04.11:385][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.04.11:385][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.04.11:385][731]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.04.11:386][731]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.04.11:386][731]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.04.11:414][731]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.04.11:414][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.04.11:414][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.04.11:414][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.04.11:415][731]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.04.11:415][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.04.11:415][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.04.11:416][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.04.11:416][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.04.11:416][731]LogInit: FAudioDevice initialized.
+[2022.09.21-08.04.11:416][731]LogAudio: Display: Audio Device (ID: 67) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.04.11:457][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.04.11:457][731]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.04.11:460][731]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.04.11
+[2022.09.21-08.04.11:460][731]LogWorld: Bringing up level for play took: 0.003021
+[2022.09.21-08.04.11:460][731]LogOnline: OSS: Creating online subsystem instance for: :Context_93
+[2022.09.21-08.04.11:464][731]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.04.11:465][731]PIE: 에디터에서 플레이 총 시작 시간 0.139초입니다.
+[2022.09.21-08.04.19:900][236]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.04.24:483][511]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.04.37:783][309]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.04.39:834][432]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.04.45:433][768]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.04.47:483][891]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.04.48:476][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.04.48:476][949]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.04.48:476][949]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.04.48:480][949]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.04.48:480][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.04.48:497][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.04.48:536][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.04.48:579][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.04.48:580][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.04.48:589][949]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2022.09.21-08.04.48:604][950]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2022.09.21-08.05.14:727][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.05.14:730][496]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTree5D31E59C4398A0FACB6304BB47D275DA.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.05.14:796][496]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.05.14:796][496]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.05.18:757][727]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.05.18:764][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.05.18:764][727]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:05:18)
+[2022.09.21-08.05.18:764][727]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.05.18:774][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009541s)
+[2022.09.21-08.05.18:774][727]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.05.18:775][727]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2022.09.21-08.05.18:775][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010670s)
+[2022.09.21-08.05.18:822][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.09.21-08.05.18:824][727]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2022.09.21-08.05.18:824][727]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.05.18:824][727]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.05.18:824][727]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.05.18:824][727]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.05.18:824][727]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.05.18:824][727]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.05.18:824][727]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.05.18:824][727]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.05.18:825][727]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.05.18:825][727]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.05.18:825][727]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.05.18:825][727]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.05.18:826][727]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.05.18:826][727]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.05.18:853][727]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.05.18:853][727]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.05.18:853][727]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.05.18:853][727]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.05.18:854][727]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.05.18:854][727]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.05.18:854][727]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.05.18:855][727]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.05.18:855][727]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.05.18:855][727]LogInit: FAudioDevice initialized.
+[2022.09.21-08.05.18:855][727]LogAudio: Display: Audio Device (ID: 68) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.05.18:906][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.05.18:906][727]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.05.18:909][727]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.05.18
+[2022.09.21-08.05.18:910][727]LogWorld: Bringing up level for play took: 0.003116
+[2022.09.21-08.05.18:910][727]LogOnline: OSS: Creating online subsystem instance for: :Context_94
+[2022.09.21-08.05.18:914][727]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.05.18:915][727]PIE: 에디터에서 플레이 총 시작 시간 0.153초입니다.
+[2022.09.21-08.05.29:616][368]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.05.37:152][818]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.05.40:202][  1]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.05.42:953][166]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.05.44:786][276]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.05.46:576][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.05.46:576][381]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.05.46:576][381]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.05.46:580][381]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.05.46:580][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.05.46:596][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.05.46:635][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.05.46:680][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.05.46:682][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.05.46:702][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.09.21-08.05.46:717][382]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2022.09.21-08.06.05:502][509]BlueprintLog: New page: Assassin_HUD 컴파일
+[2022.09.21-08.06.05:569][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.09.21-08.06.05:969][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.06.05:972][532]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD03E5BB454E682225736B8AAB103E31C8.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.06.05:985][532]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.06.05:985][532]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.06.06:136][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.06.06:139][541]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD47A91DD64EF4AB65ADE1088B36EA8BB8.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.06.06:152][541]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.06.06:152][541]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.06.06:302][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.06.06:305][550]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD39EAC49D46D1271FC081D9B9D888E830.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.06.06:388][550]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.06.06:388][550]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.06.46:253][922]BlueprintLog: New page: BP_RangedController 컴파일
+[2022.09.21-08.06.46:327][922]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2022.09.21-08.06.46:598][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BP_RangedController" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BP_RangedController.uasset" SILENT=true
+[2022.09.21-08.06.46:610][935]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BP_RangedController63A1AA6E4953759CEC0357B2E3B407A4.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BP_RangedController.uasset'
+[2022.09.21-08.06.46:623][935]AssetCheck: New page: 에셋 저장:  BP_RangedController
+[2022.09.21-08.06.46:623][935]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/BP_RangedController.BP_RangedController 유효성 검사 중
+[2022.09.21-08.06.51:097][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.06.51:100][196]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTree305A28D74127022E2C43DE99996FD55A.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.06.51:166][196]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.06.51:166][196]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.06.59:574][697]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.06.59:581][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.06.59:581][697]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:06:59)
+[2022.09.21-08.06.59:581][697]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.06.59:592][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010761s)
+[2022.09.21-08.06.59:593][697]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.06.59:593][697]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2022.09.21-08.06.59:593][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.012024s)
+[2022.09.21-08.06.59:640][697]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2022.09.21-08.06.59:641][697]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.06.59:642][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.06.59:642][697]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.06.59:642][697]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.06.59:642][697]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.06.59:642][697]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.06.59:643][697]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.06.59:644][697]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.06.59:669][697]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.06.59:669][697]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.06.59:669][697]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.06.59:669][697]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.06.59:670][697]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.06.59:670][697]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.06.59:670][697]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.06.59:671][697]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.06.59:671][697]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.06.59:671][697]LogInit: FAudioDevice initialized.
+[2022.09.21-08.06.59:671][697]LogAudio: Display: Audio Device (ID: 69) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.06.59:724][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.06.59:725][697]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.06.59:728][697]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.06.59
+[2022.09.21-08.06.59:729][697]LogWorld: Bringing up level for play took: 0.003460
+[2022.09.21-08.06.59:729][697]LogOnline: OSS: Creating online subsystem instance for: :Context_95
+[2022.09.21-08.06.59:733][697]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.06.59:733][697]PIE: 에디터에서 플레이 총 시작 시간 0.155초입니다.
+[2022.09.21-08.06.59:735][697]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.07.02:488][859]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.07.04:755][995]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.07.13:776][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.07.13:776][534]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.07.13:776][534]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.07.13:780][534]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.07.13:781][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.07.13:787][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.07.13:827][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.07.13:872][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.07.13:873][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.07.13:881][534]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2022.09.21-08.07.13:895][535]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2022.09.21-08.13.27:316][804]BlueprintLog: New page: BP_RangedController 컴파일
+[2022.09.21-08.13.27:394][804]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2022.09.21-08.13.27:785][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BP_RangedController" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BP_RangedController.uasset" SILENT=true
+[2022.09.21-08.13.27:797][822]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BP_RangedControllerB6D54E3E4A3378EC76AD509EC57D37D0.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BP_RangedController.uasset'
+[2022.09.21-08.13.27:855][822]AssetCheck: New page: 에셋 저장:  BP_RangedController
+[2022.09.21-08.13.27:855][822]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/BP_RangedController.BP_RangedController 유효성 검사 중
+[2022.09.21-08.14.13:880][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.14.13:883][524]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTreeA168252A4451198ED4381D8898072797.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.14.13:894][524]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.14.13:895][524]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.14.15:607][624]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.14.15:614][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.14.15:614][624]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:14:15)
+[2022.09.21-08.14.15:614][624]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.14.15:624][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009903s)
+[2022.09.21-08.14.15:625][624]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.14.15:625][624]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2022.09.21-08.14.15:625][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011050s)
+[2022.09.21-08.14.15:670][624]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2022.09.21-08.14.15:671][624]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2022.09.21-08.14.15:671][624]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.14.15:671][624]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.14.15:671][624]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.14.15:671][624]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.14.15:671][624]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.14.15:671][624]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.14.15:671][624]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.14.15:671][624]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.14.15:672][624]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.14.15:672][624]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.14.15:672][624]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.14.15:672][624]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.14.15:673][624]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.14.15:673][624]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.14.15:700][624]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.14.15:700][624]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.14.15:700][624]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.14.15:700][624]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.14.15:701][624]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.14.15:701][624]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.14.15:701][624]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.14.15:702][624]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.14.15:702][624]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.14.15:702][624]LogInit: FAudioDevice initialized.
+[2022.09.21-08.14.15:702][624]LogAudio: Display: Audio Device (ID: 70) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.14.15:743][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.14.15:743][624]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.14.15:747][624]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.14.15
+[2022.09.21-08.14.15:747][624]LogWorld: Bringing up level for play took: 0.003364
+[2022.09.21-08.14.15:748][624]LogOnline: OSS: Creating online subsystem instance for: :Context_96
+[2022.09.21-08.14.15:752][624]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.14.15:752][624]PIE: 에디터에서 플레이 총 시작 시간 0.141초입니다.
+[2022.09.21-08.14.15:754][624]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.14.33:788][702]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.14.35:722][818]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.14.40:088][ 80]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.14.51:570][767]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.14.51:577][767]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.14.51:603][767]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.14.51:604][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.14.51:619][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.14.51:659][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.14.51:702][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.14.51:703][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.14.51:712][767]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2022.09.21-08.14.51:726][768]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2022.09.21-08.15.06:833][655]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EnemyAI/RangedAI/BTT_OriginFocus.BTT_OriginFocus
+[2022.09.21-08.15.10:995][887]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.15.11:001][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.15.11:002][887]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:15:11)
+[2022.09.21-08.15.11:002][887]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.15.11:011][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009182s)
+[2022.09.21-08.15.11:012][887]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.15.11:013][887]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2022.09.21-08.15.11:013][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010402s)
+[2022.09.21-08.15.11:058][887]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.09.21-08.15.11:059][887]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.15.11:059][887]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.15.11:059][887]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.15.11:059][887]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.15.11:059][887]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.15.11:059][887]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.15.11:061][887]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.15.11:061][887]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.15.11:086][887]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.15.11:086][887]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.15.11:086][887]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.15.11:086][887]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.15.11:087][887]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.15.11:087][887]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.15.11:087][887]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.15.11:088][887]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.15.11:088][887]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.15.11:088][887]LogInit: FAudioDevice initialized.
+[2022.09.21-08.15.11:088][887]LogAudio: Display: Audio Device (ID: 71) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.15.11:131][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.15.11:131][887]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.15.11:134][887]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.15.11
+[2022.09.21-08.15.11:135][887]LogWorld: Bringing up level for play took: 0.002987
+[2022.09.21-08.15.11:135][887]LogOnline: OSS: Creating online subsystem instance for: :Context_98
+[2022.09.21-08.15.11:139][887]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.15.11:139][887]PIE: 에디터에서 플레이 총 시작 시간 0.14초입니다.
+[2022.09.21-08.15.11:141][887]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.15.16:644][208]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.15.27:628][867]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.15.30:578][ 44]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.15.51:410][294]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.15.51:418][294]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.15.51:418][294]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.15.51:418][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.15.51:429][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.15.51:469][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.15.51:514][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.15.51:515][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.15.51:522][294]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2022.09.21-08.15.51:537][295]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2022.09.21-08.15.54:439][468]LogEditorViewport: Clicking on Actor (LMB): BP_Point_C (BP_Point)
+[2022.09.21-08.16.01:721][901]LogEditorViewport: Clicking on Actor (LMB): BP_RangedCharacter_C (BP_RangedCharacter)
+[2022.09.21-08.16.06:693][196]LogEditorViewport: Clicking on Actor (LMB): BP_Point_C (BP_Point)
+[2022.09.21-08.16.15:183][700]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2022.09.21-08.16.15:200][700]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/TopDownExampleMap63F8CB87419B9B786B6D8ABBBCB36F76.tmp' to '../../../../../../ilue/AssassinTactics/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.09.21-08.16.15:209][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../../ilue/AssassinTactics/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2022.09.21-08.16.15:320][700]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/TopDownExampleMap_BuiltDataAF8DD381497D057FFADBDEA1DA2661AA.tmp' to '../../../../../../ilue/AssassinTactics/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2022.09.21-08.16.15:340][700]AssetCheck: New page: 에셋 저장:  다수의 에셋
+[2022.09.21-08.16.15:340][700]LogContentValidation: Display: MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData 유효성 검사 중
+[2022.09.21-08.16.15:340][700]LogContentValidation: Display: World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap 유효성 검사 중
+[2022.09.21-08.16.16:530][770]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.16.16:536][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.16.16:536][770]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:16:16)
+[2022.09.21-08.16.16:536][770]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.16.16:545][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008995s)
+[2022.09.21-08.16.16:546][770]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.16.16:546][770]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2022.09.21-08.16.16:546][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.010052s)
+[2022.09.21-08.16.16:593][770]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.09.21-08.16.16:595][770]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.16.16:595][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.16.16:595][770]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.16.16:595][770]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.16.16:595][770]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.16.16:595][770]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.16.16:597][770]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.16.16:597][770]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.16.16:621][770]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.16.16:621][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.16.16:621][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.16.16:621][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.16.16:622][770]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.16.16:622][770]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.16.16:622][770]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.16.16:623][770]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.16.16:623][770]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.16.16:623][770]LogInit: FAudioDevice initialized.
+[2022.09.21-08.16.16:623][770]LogAudio: Display: Audio Device (ID: 72) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.16.16:666][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.16.16:666][770]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.16.16:669][770]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.16.16
+[2022.09.21-08.16.16:670][770]LogWorld: Bringing up level for play took: 0.002738
+[2022.09.21-08.16.16:670][770]LogOnline: OSS: Creating online subsystem instance for: :Context_99
+[2022.09.21-08.16.16:673][770]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.16.16:675][770]PIE: 에디터에서 플레이 총 시작 시간 0.141초입니다.
+[2022.09.21-08.16.16:676][770]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.16.22:163][ 95]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.16.25:455][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.16.25:455][290]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.16.25:456][290]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.16.25:459][290]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.16.25:460][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.16.25:469][290]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.16.25:483][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.16.25:527][290]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.16.25:528][290]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.16.25:534][290]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2022.09.21-08.16.25:558][291]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2022.09.21-08.17.00:980][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.17.00:983][362]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTree902873E84659445C7F1EA99CA88A5C8D.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.17.01:047][362]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.17.01:047][362]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.17.02:359][440]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.17.02:365][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.17.02:365][440]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:17:02)
+[2022.09.21-08.17.02:365][440]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.17.02:376][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011344s)
+[2022.09.21-08.17.02:377][440]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.17.02:378][440]LogPlayLevel: PIE: World Init took: (0.001820s)
+[2022.09.21-08.17.02:378][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.013369s)
+[2022.09.21-08.17.02:425][440]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2022.09.21-08.17.02:427][440]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.17.02:428][440]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.17.02:428][440]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.17.02:428][440]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.17.02:428][440]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.17.02:428][440]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.17.02:429][440]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.17.02:429][440]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.17.02:458][440]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.17.02:458][440]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.17.02:459][440]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.17.02:459][440]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.17.02:459][440]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.17.02:459][440]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.17.02:459][440]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.17.02:460][440]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.17.02:460][440]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.17.02:460][440]LogInit: FAudioDevice initialized.
+[2022.09.21-08.17.02:460][440]LogAudio: Display: Audio Device (ID: 73) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.17.02:493][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.17.02:493][440]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.17.02:496][440]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.17.02
+[2022.09.21-08.17.02:497][440]LogWorld: Bringing up level for play took: 0.002969
+[2022.09.21-08.17.02:497][440]LogOnline: OSS: Creating online subsystem instance for: :Context_100
+[2022.09.21-08.17.02:501][440]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.17.02:502][440]PIE: 에디터에서 플레이 총 시작 시간 0.139초입니다.
+[2022.09.21-08.17.02:503][440]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.17.10:266][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.17.10:266][903]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.17.10:267][903]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.17.10:271][903]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.17.10:272][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.17.10:280][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.17.10:293][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.17.10:340][903]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.21-08.17.10:340][903]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.17.10:342][903]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.17.10:348][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2022.09.21-08.17.10:365][904]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2022.09.21-08.17.20:204][488]Cmd: TRANSACTION UNDO
+[2022.09.21-08.17.20:204][488]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2022.09.21-08.17.25:818][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.17.25:821][798]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTreeAE00C0A449722ABCC2B011B75C5488D9.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.17.25:905][798]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.17.25:905][798]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.17.27:099][864]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.17.27:105][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.17.27:105][864]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:17:27)
+[2022.09.21-08.17.27:106][864]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.17.27:118][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012230s)
+[2022.09.21-08.17.27:119][864]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.17.27:120][864]LogPlayLevel: PIE: World Init took: (0.001662s)
+[2022.09.21-08.17.27:120][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.014067s)
+[2022.09.21-08.17.27:169][864]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2022.09.21-08.17.27:171][864]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.17.27:171][864]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.17.27:171][864]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.17.27:171][864]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.17.27:171][864]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.17.27:171][864]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.17.27:173][864]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.17.27:173][864]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.17.27:198][864]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.17.27:199][864]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.17.27:199][864]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.17.27:199][864]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.17.27:199][864]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.17.27:199][864]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.17.27:199][864]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.17.27:200][864]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.17.27:200][864]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.17.27:200][864]LogInit: FAudioDevice initialized.
+[2022.09.21-08.17.27:200][864]LogAudio: Display: Audio Device (ID: 74) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.17.27:248][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.17.27:248][864]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.17.27:251][864]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.17.27
+[2022.09.21-08.17.27:252][864]LogWorld: Bringing up level for play took: 0.002794
+[2022.09.21-08.17.27:252][864]LogOnline: OSS: Creating online subsystem instance for: :Context_101
+[2022.09.21-08.17.27:256][864]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.17.27:256][864]PIE: 에디터에서 플레이 총 시작 시간 0.153초입니다.
+[2022.09.21-08.17.27:257][864]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.17.35:642][364]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.17.41:242][700]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.17.43:416][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.17.43:416][828]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.17.43:417][828]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.17.43:420][828]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.17.43:420][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.17.43:430][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.17.43:471][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.17.43:516][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.17.43:517][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.17.43:526][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2022.09.21-08.17.43:540][829]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2022.09.21-08.17.51:122][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.17.51:125][257]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTree22377E4746A4489A0E878CB0C03B1676.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.17.51:191][257]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.17.51:191][257]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.17.52:371][322]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.17.52:378][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.17.52:378][322]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:17:52)
+[2022.09.21-08.17.52:378][322]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.17.52:390][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012350s)
+[2022.09.21-08.17.52:392][322]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.17.52:392][322]LogPlayLevel: PIE: World Init took: (0.002174s)
+[2022.09.21-08.17.52:393][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.014685s)
+[2022.09.21-08.17.52:439][322]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.09.21-08.17.52:440][322]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.17.52:440][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.17.52:440][322]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.17.52:440][322]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.17.52:440][322]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.17.52:440][322]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.17.52:442][322]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.17.52:442][322]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.17.52:468][322]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.17.52:468][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.17.52:469][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.17.52:469][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.17.52:469][322]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.17.52:469][322]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.17.52:469][322]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.17.52:470][322]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.17.52:470][322]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.17.52:470][322]LogInit: FAudioDevice initialized.
+[2022.09.21-08.17.52:470][322]LogAudio: Display: Audio Device (ID: 75) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.17.52:519][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.17.52:519][322]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.17.52:522][322]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.17.52
+[2022.09.21-08.17.52:523][322]LogWorld: Bringing up level for play took: 0.002999
+[2022.09.21-08.17.52:523][322]LogOnline: OSS: Creating online subsystem instance for: :Context_102
+[2022.09.21-08.17.52:527][322]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.17.52:527][322]PIE: 에디터에서 플레이 총 시작 시간 0.152초입니다.
+[2022.09.21-08.17.52:529][322]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.17.53:876][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.17.53:876][398]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.17.53:876][398]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.17.53:881][398]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.17.53:881][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.17.53:894][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.17.53:935][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.17.53:981][398]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.21-08.17.53:981][398]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.17.53:983][398]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.17.53:991][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.09.21-08.17.54:004][399]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2022.09.21-08.18.05:730][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.18.05:733][ 92]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTreeC6CA9CE6401D6409EE03C78A65554AA2.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.18.05:746][ 92]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.18.05:746][ 92]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.18.06:863][156]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.18.06:870][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.18.06:870][156]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:18:06)
+[2022.09.21-08.18.06:870][156]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.18.06:881][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010747s)
+[2022.09.21-08.18.06:882][156]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.18.06:882][156]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2022.09.21-08.18.06:882][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011939s)
+[2022.09.21-08.18.06:931][156]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2022.09.21-08.18.06:932][156]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.18.06:932][156]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.18.06:932][156]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.18.06:932][156]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.18.06:932][156]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.18.06:932][156]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.18.06:933][156]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.18.06:934][156]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.18.06:958][156]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.18.06:958][156]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.18.06:958][156]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.18.06:958][156]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.18.06:959][156]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.18.06:959][156]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.18.06:959][156]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.18.06:960][156]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.18.06:960][156]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.18.06:960][156]LogInit: FAudioDevice initialized.
+[2022.09.21-08.18.06:960][156]LogAudio: Display: Audio Device (ID: 76) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.18.07:011][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.18.07:012][156]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.18.07:014][156]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.18.07
+[2022.09.21-08.18.07:015][156]LogWorld: Bringing up level for play took: 0.003037
+[2022.09.21-08.18.07:015][156]LogOnline: OSS: Creating online subsystem instance for: :Context_103
+[2022.09.21-08.18.07:019][156]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.18.07:019][156]PIE: 에디터에서 플레이 총 시작 시간 0.152초입니다.
+[2022.09.21-08.18.07:021][156]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.18.11:109][392]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.18.11:809][434]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.18.18:843][856]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.18.19:810][914]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.18.26:977][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.18.26:977][341]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.18.26:977][341]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.18.26:980][341]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.18.26:981][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.18.26:990][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.18.27:030][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.18.27:077][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.18.27:078][341]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.18.27:086][341]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2022.09.21-08.18.27:100][342]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2022.09.21-08.18.57:955][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.18.57:959][144]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTree81C569864399C4372048A3BEE13125C6.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.18.58:009][144]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.18.58:009][144]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.18.59:470][227]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.18.59:476][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.18.59:476][227]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:18:59)
+[2022.09.21-08.18.59:477][227]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.18.59:488][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010863s)
+[2022.09.21-08.18.59:489][227]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.18.59:489][227]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2022.09.21-08.18.59:489][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.012178s)
+[2022.09.21-08.18.59:537][227]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.09.21-08.18.59:538][227]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2022.09.21-08.18.59:538][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.18.59:538][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.18.59:538][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.18.59:538][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.18.59:538][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.18.59:538][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.18.59:538][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.18.59:538][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.18.59:539][227]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.18.59:539][227]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.18.59:539][227]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.18.59:539][227]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.18.59:540][227]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.18.59:540][227]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.18.59:567][227]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.18.59:567][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.18.59:567][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.18.59:567][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.18.59:568][227]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.18.59:568][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.18.59:568][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.18.59:569][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.18.59:569][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.18.59:569][227]LogInit: FAudioDevice initialized.
+[2022.09.21-08.18.59:569][227]LogAudio: Display: Audio Device (ID: 77) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.18.59:619][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.18.59:619][227]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.18.59:622][227]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.18.59
+[2022.09.21-08.18.59:623][227]LogWorld: Bringing up level for play took: 0.002972
+[2022.09.21-08.18.59:623][227]LogOnline: OSS: Creating online subsystem instance for: :Context_104
+[2022.09.21-08.18.59:627][227]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.18.59:627][227]PIE: 에디터에서 플레이 총 시작 시간 0.153초입니다.
+[2022.09.21-08.18.59:628][227]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.19.04:881][541]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.19.07:997][728]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.19.08:215][741]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.19.10:298][866]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.19.19:815][437]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.19.20:431][474]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.19.20:548][481]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.19.22:248][583]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.19.23:881][681]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.19.24:598][724]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.19.25:636][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.19.25:636][782]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.19.25:636][782]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.19.25:640][782]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.19.25:640][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.19.25:650][782]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.19.25:690][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.19.25:739][782]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.19.25:740][782]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.19.25:748][782]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.09.21-08.19.25:761][783]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2022.09.21-08.20.08:918][321]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EnemyAI/RangedAI/BTT_ClearFocus.BTT_ClearFocus
+[2022.09.21-08.20.16:047][725]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.20.16:054][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.20.16:054][725]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:20:16)
+[2022.09.21-08.20.16:054][725]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.20.16:065][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011116s)
+[2022.09.21-08.20.16:066][725]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.20.16:066][725]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2022.09.21-08.20.16:066][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.012356s)
+[2022.09.21-08.20.16:117][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.09.21-08.20.16:118][725]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2022.09.21-08.20.16:118][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.20.16:118][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.20.16:118][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.20.16:118][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.20.16:118][725]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.20.16:118][725]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.20.16:118][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.20.16:118][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.20.16:119][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.20.16:119][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.20.16:119][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.20.16:119][725]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.20.16:120][725]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.20.16:120][725]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.20.16:147][725]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.20.16:147][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.20.16:147][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.20.16:147][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.20.16:147][725]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.20.16:147][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.20.16:147][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.20.16:149][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.20.16:149][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.20.16:149][725]LogInit: FAudioDevice initialized.
+[2022.09.21-08.20.16:149][725]LogAudio: Display: Audio Device (ID: 78) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.20.16:199][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.20.16:199][725]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.20.16:202][725]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.20.16
+[2022.09.21-08.20.16:202][725]LogWorld: Bringing up level for play took: 0.003090
+[2022.09.21-08.20.16:203][725]LogOnline: OSS: Creating online subsystem instance for: :Context_106
+[2022.09.21-08.20.16:207][725]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.20.16:207][725]PIE: 에디터에서 플레이 총 시작 시간 0.156초입니다.
+[2022.09.21-08.20.16:208][725]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.20.40:966][204]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.20.40:972][204]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.20.41:004][204]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.20.41:004][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.20.41:017][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.20.41:059][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.20.41:108][204]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.21-08.20.41:108][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.20.41:109][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.20.41:118][204]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2022.09.21-08.20.41:131][205]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2022.09.21-08.21.08:408][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.21.08:412][780]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTreeFDE0449A43184F0AEB0890893F8D9569.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.21.08:478][780]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.21.08:478][780]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.21.18:235][361]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.21.18:241][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.21.18:241][361]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:21:18)
+[2022.09.21-08.21.18:241][361]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.21.18:264][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023631s)
+[2022.09.21-08.21.18:265][361]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.21.18:265][361]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2022.09.21-08.21.18:265][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024953s)
+[2022.09.21-08.21.18:317][361]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.09.21-08.21.18:319][361]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.21.18:319][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.21.18:319][361]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.21.18:319][361]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.21.18:319][361]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.21.18:319][361]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.21.18:321][361]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.21.18:321][361]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.21.18:347][361]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.21.18:347][361]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.21.18:347][361]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.21.18:347][361]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.21.18:348][361]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.21.18:348][361]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.21.18:348][361]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.21.18:349][361]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.21.18:349][361]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.21.18:349][361]LogInit: FAudioDevice initialized.
+[2022.09.21-08.21.18:349][361]LogAudio: Display: Audio Device (ID: 79) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.21.18:401][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.21.18:401][361]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.21.18:404][361]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.21.18
+[2022.09.21-08.21.18:405][361]LogWorld: Bringing up level for play took: 0.003080
+[2022.09.21-08.21.18:405][361]LogOnline: OSS: Creating online subsystem instance for: :Context_107
+[2022.09.21-08.21.18:409][361]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.21.18:410][361]PIE: 에디터에서 플레이 총 시작 시간 0.171초입니다.
+[2022.09.21-08.21.18:411][361]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.21.22:261][591]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.21.22:544][608]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.21.29:444][ 22]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.21.30:545][ 88]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.21.35:174][365]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.21.40:305][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.21.40:306][670]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.21.40:306][670]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.21.40:309][670]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.21.40:310][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.21.40:319][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.21.40:359][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.21.40:406][670]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.21-08.21.40:406][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.21.40:407][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.21.40:414][670]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2022.09.21-08.21.40:427][671]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2022.09.21-08.22.12:693][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.22.12:696][558]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTreeFFE282EE4D6CE5FEEDD812B42480B1D2.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.22.12:714][558]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.22.12:714][558]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.22.14:224][647]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2022.09.21-08.22.14:230][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.21-08.22.14:231][647]PIE: New page: PIE 세션: TopDownExampleMap (2022. 9. 22. 오전 2:22:14)
+[2022.09.21-08.22.14:231][647]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.22.14:241][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010000s)
+[2022.09.21-08.22.14:242][647]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.09.21-08.22.14:242][647]LogPlayLevel: PIE: World Init took: (0.001157s)
+[2022.09.21-08.22.14:242][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.011279s)
+[2022.09.21-08.22.14:294][647]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.09.21-08.22.14:295][647]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.21-08.22.14:296][647]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.21-08.22.14:296][647]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.21-08.22.14:296][647]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.21-08.22.14:296][647]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.21-08.22.14:296][647]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.21-08.22.14:297][647]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.21-08.22.14:298][647]LogAudioMixer: Display: 1: FrontRight
+[2022.09.21-08.22.14:322][647]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.09.21-08.22.14:323][647]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.21-08.22.14:323][647]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.21-08.22.14:323][647]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.21-08.22.14:323][647]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.21-08.22.14:323][647]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.21-08.22.14:323][647]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.21-08.22.14:324][647]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.21-08.22.14:324][647]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.21-08.22.14:324][647]LogInit: FAudioDevice initialized.
+[2022.09.21-08.22.14:324][647]LogAudio: Display: Audio Device (ID: 80) registered with world 'TopDownExampleMap'.
+[2022.09.21-08.22.14:373][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.22.14:373][647]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.09.21-08.22.14:376][647]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2022.09.21-17.22.14
+[2022.09.21-08.22.14:377][647]LogWorld: Bringing up level for play took: 0.003075
+[2022.09.21-08.22.14:377][647]LogOnline: OSS: Creating online subsystem instance for: :Context_108
+[2022.09.21-08.22.14:381][647]PIE: 서버가 로그인했습니다.
+[2022.09.21-08.22.14:382][647]PIE: 에디터에서 플레이 총 시작 시간 0.154초입니다.
+[2022.09.21-08.22.14:383][647]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.22.16:284][760]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.22.23:001][163]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.22.23:367][185]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.22.24:784][270]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.22.33:147][769]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.22.44:308][432]LogBlueprintUserMessages: [BP_RangedController_C_0] Sensed
+[2022.09.21-08.22.45:857][525]LogBlueprintUserMessages: [BP_RangedController_C_0] Lost
+[2022.09.21-08.22.53:516][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.21-08.22.53:516][979]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.09.21-08.22.53:516][979]LogSlate: Window 'AssassinTactics 프리뷰 [NetMode: Standalone]  (64-bit/Windows)' being destroyed
+[2022.09.21-08.22.53:519][979]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.22.53:520][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.22.53:526][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.21-08.22.53:569][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.22.53:619][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.22.53:620][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.22.53:627][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2022.09.21-08.22.53:640][980]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2022.09.21-08.23.18:108][996]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/EnemyAI/RangedAI/BTT_RangeAttack.BTT_RangeAttack
+[2022.09.21-08.27.14:657][792]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.27.14:657][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.27.19:861][ 93]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.27.19:861][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.29.02:558][140]LogUObjectHash: Compacting FUObjectHashTables data took   7.92ms
+[2022.09.21-08.29.02:560][140]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.083
+[2022.09.21-08.29.02:560][140]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EnemyAI/RangedAI/BT_RangedTree] ([2] browsable assets)...
+[2022.09.21-08.29.02:560][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/EnemyAI/RangedAI/BT_RangedTree]
+[2022.09.21-08.29.02:563][140]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTree_Auto0C95760C141E5B57B2DEA8999C860A073.tmp' to '../../../../../../ilue/AssassinTactics/Saved/Autosaves/Game/EnemyAI/RangedAI/BT_RangedTree_Auto0.uasset'
+[2022.09.21-08.29.02:564][140]LogFileHelpers: Auto-saving content packages took 0.005
+[2022.09.21-08.30.05:842][279]BlueprintLog: New page: BP_ATPlayerState 컴파일
+[2022.09.21-08.30.05:918][279]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2022.09.21-08.30.06:310][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/BP_ATPlayerState" FILE="../../../../../../ilue/AssassinTactics/Content/System/BP_ATPlayerState.uasset" SILENT=true
+[2022.09.21-08.30.06:320][300]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BP_ATPlayerState83204B944602BC4AF7818DA2E04763C8.tmp' to '../../../../../../ilue/AssassinTactics/Content/System/BP_ATPlayerState.uasset'
+[2022.09.21-08.30.06:332][300]AssetCheck: New page: 에셋 저장:  BP_ATPlayerState
+[2022.09.21-08.30.06:333][300]LogContentValidation: Display: Blueprint /Game/System/BP_ATPlayerState.BP_ATPlayerState 유효성 검사 중
+[2022.09.21-08.30.22:818][280]BlueprintLog: New page: BP_ATPlayerState 컴파일
+[2022.09.21-08.30.22:894][280]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2022.09.21-08.30.23:267][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/BP_ATPlayerState" FILE="../../../../../../ilue/AssassinTactics/Content/System/BP_ATPlayerState.uasset" SILENT=true
+[2022.09.21-08.30.23:277][301]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BP_ATPlayerStateCBF90EEF4665DEB814FC03B10384868B.tmp' to '../../../../../../ilue/AssassinTactics/Content/System/BP_ATPlayerState.uasset'
+[2022.09.21-08.30.23:370][301]AssetCheck: New page: 에셋 저장:  BP_ATPlayerState
+[2022.09.21-08.30.23:370][301]LogContentValidation: Display: Blueprint /Game/System/BP_ATPlayerState.BP_ATPlayerState 유효성 검사 중
+[2022.09.21-08.30.29:215][644]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.30.29:215][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.30.30:531][720]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.30.30:531][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.30.32:747][850]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.30.32:747][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.35.01:112][416]BlueprintLog: New page: BP_ATPlayerState 컴파일
+[2022.09.21-08.35.01:188][416]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2022.09.21-08.35.12:015][ 62]BlueprintLog: New page: BP_ATPlayerState 컴파일
+[2022.09.21-08.35.12:078][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2022.09.21-08.35.12:543][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/BP_ATPlayerState" FILE="../../../../../../ilue/AssassinTactics/Content/System/BP_ATPlayerState.uasset" SILENT=true
+[2022.09.21-08.35.12:553][ 88]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BP_ATPlayerStateFFE7A09F4B970DA37FAAC7BD1DD70005.tmp' to '../../../../../../ilue/AssassinTactics/Content/System/BP_ATPlayerState.uasset'
+[2022.09.21-08.35.12:613][ 88]AssetCheck: New page: 에셋 저장:  BP_ATPlayerState
+[2022.09.21-08.35.12:614][ 88]LogContentValidation: Display: Blueprint /Game/System/BP_ATPlayerState.BP_ATPlayerState 유효성 검사 중
+[2022.09.21-08.40.42:517][718]LogContentBrowser: Attempting asset rename: Assassin_Widget -> Assassin_Widget
+[2022.09.21-08.40.59:571][723]BlueprintLog: New page: Assassin_HUD 컴파일
+[2022.09.21-08.40.59:634][723]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2022.09.21-08.41.00:189][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.41.00:193][752]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD6EDE8AD54F7AFB0AA522E0A78BCCB89C.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.41.00:209][752]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.41.00:209][752]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.45.11:419][234]BlueprintLog: New page: Assassin_HUD 컴파일
+[2022.09.21-08.45.11:484][234]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2022.09.21-08.45.12:081][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.45.12:088][268]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD80E4FD944155C4EE81B5859D3C8F3A2E.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.45.12:102][268]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.45.12:102][268]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.45.12:247][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.45.12:254][276]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD40B855FD4A52B21836580099DD627F2E.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.45.12:267][276]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.45.12:267][276]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.45.38:085][806]BlueprintLog: New page: Assassin_HUD 컴파일
+[2022.09.21-08.45.38:145][806]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2022.09.21-08.45.38:668][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/Widget/Assassin_HUD" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset" SILENT=true
+[2022.09.21-08.45.38:675][833]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/Assassin_HUD8713C3C64EC60C3F26A3EAB58B8DE47C.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/Widget/Assassin_HUD.uasset'
+[2022.09.21-08.45.38:737][833]AssetCheck: New page: 에셋 저장:  Assassin_HUD
+[2022.09.21-08.45.38:737][833]LogContentValidation: Display: Blueprint /Game/EnemyAI/RangedAI/Widget/Assassin_HUD.Assassin_HUD 유효성 검사 중
+[2022.09.21-08.45.41:120][974]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2022.09.21-08.45.41:921][974]LogSlate: Window '콘텐츠 저장' being destroyed
+[2022.09.21-08.45.41:949][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnemyAI/RangedAI/BT_RangedTree" FILE="../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset" SILENT=true
+[2022.09.21-08.45.41:952][974]LogSavePackage: Moving '../../../../../../ilue/AssassinTactics/Saved/BT_RangedTreeD3AC00B547986A677A5F239E60723F7E.tmp' to '../../../../../../ilue/AssassinTactics/Content/EnemyAI/RangedAI/BT_RangedTree.uasset'
+[2022.09.21-08.45.42:007][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-08.45.42:007][974]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.42:007][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.45.42:317][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-08.45.42:317][974]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.42:317][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.45.42:415][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-08.45.42:415][974]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.42:415][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.45.42:505][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-08.45.42:505][974]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.42:505][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.45.42:596][974]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.42:596][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.45.42:606][974]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.42:606][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.45.42:676][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.21-08.45.42:676][974]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.42:676][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.21-08.45.42:732][974]LogSlate: Window 'AssassinTactics - 언리얼 에디터' being destroyed
+[2022.09.21-08.45.42:883][974]AssetCheck: New page: 에셋 저장:  BT_RangedTree
+[2022.09.21-08.45.42:883][974]LogContentValidation: Display: BehaviorTree /Game/EnemyAI/RangedAI/BT_RangedTree.BT_RangedTree 유효성 검사 중
+[2022.09.21-08.45.42:884][975]Cmd: QUIT_EDITOR
+[2022.09.21-08.45.42:884][975]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.09.21-08.45.42:888][975]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.09.21-08.45.43:854][975]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.09.21-08.45.43:855][975]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.09.21-08.45.43:855][975]LogAudio: Display: Audio Device unregistered from world 'TopDownExampleMap'.
+[2022.09.21-08.45.43:855][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.45.43:856][975]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.21-08.45.43:869][975]LogAudio: Display: Audio Device Manager Shutdown
+[2022.09.21-08.45.43:871][975]LogWindowsTextInputMethodSystem: Display: IME system activated using TSF (Microsoft 입력기).
+[2022.09.21-08.45.43:878][975]LogExit: Preparing to exit.
+[2022.09.21-08.45.44:006][975]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2022.09.21-08.45.45:238][975]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:243][975]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:246][975]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:251][975]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:254][975]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:258][975]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:262][975]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:266][975]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.21-08.45.45:266][975]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.21-08.45.45:266][975]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.21-08.45.45:266][975]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.21-08.45.45:266][975]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.21-08.45.45:266][975]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.21-08.45.45:266][975]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.21-08.45.45:266][975]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:270][975]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:273][975]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:333][975]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.21-08.45.45:334][975]LogExit: Editor shut down
+[2022.09.21-08.45.45:337][975]LogExit: Transaction tracking system shut down
+[2022.09.21-08.45.45:345][975]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.09.21-08.45.45:843][975]LogExit: Object subsystem successfully closed.
+[2022.09.21-08.45.45:858][975]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.21-08.45.45:858][975]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.09.21-08.45.45:858][975]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.09.21-08.45.45:858][975]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.21-08.45.45:858][975]LogShaderCompilers: Display: ================================================
+[2022.09.21-08.45.45:874][975]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.21-08.45.45:874][975]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module SequencerWidgets (882)
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (880)
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module Voice (878)
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (876)
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module BlueprintGraph (874)
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (872)
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module SceneOutliner (868)
+[2022.09.21-08.45.45:914][975]LogModuleManager: Shutting down and abandoning module AddContentDialog (866)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module WidgetCarousel (865)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module EditorWidgets (862)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module StatsViewer (860)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (858)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (856)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module AutomationWorker (854)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module SteamVREditor (852)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module OculusMR (850)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (848)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module TakeRecorder (847)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (844)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module TakesCore (842)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module OpenXRInput (840)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module GooglePADEditor (838)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (836)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module PlanarCut (834)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (832)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (830)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (828)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (826)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (824)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (822)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (820)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (818)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module WebMMedia (816)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (814)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (812)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module SequenceRecorder (811)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (808)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (806)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (804)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (802)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (800)
+[2022.09.21-08.45.45:917][975]LogModuleManager: Shutting down and abandoning module CharacterAI (798)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (796)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (794)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (792)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (790)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (788)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module TextureAlignMode (786)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module BspMode (784)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module GeometryMode (782)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (780)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module SmartSnapping (778)
+[2022.09.21-08.45.45:918][975]LogModuleManager: Shutting down and abandoning module SessionServices (776)
+[2022.09.21-08.45.45:919][975]LogModuleManager: Shutting down and abandoning module MeshPaint (774)
+[2022.09.21-08.45.45:919][975]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (772)
+[2022.09.21-08.45.45:919][975]LogModuleManager: Shutting down and abandoning module FoliageEdit (770)
+[2022.09.21-08.45.45:919][975]LogModuleManager: Shutting down and abandoning module LandscapeEditor (768)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module MeshPaintMode (766)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (764)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module ActorPickerMode (762)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module PlacementMode (760)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module ViewportSnapping (758)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module ViewportInteraction (756)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module ClothPainter (754)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (753)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module LogVisualizer (750)
+[2022.09.21-08.45.45:920][975]LogModuleManager: Shutting down and abandoning module IntroTutorials (748)
+[2022.09.21-08.45.45:921][975]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (747)
+[2022.09.21-08.45.45:921][975]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (744)
+[2022.09.21-08.45.45:921][975]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (742)
+[2022.09.21-08.45.45:921][975]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (740)
+[2022.09.21-08.45.45:921][975]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (739)
+[2022.09.21-08.45.46:797][975]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (736)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (734)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (732)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (730)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module TraceInsights (728)
+[2022.09.21-08.45.46:798][975]MemoryProfiler: Shutdown
+[2022.09.21-08.45.46:798][975]NetworkingProfiler: Shutdown
+[2022.09.21-08.45.46:798][975]LoadingProfiler: Shutdown
+[2022.09.21-08.45.46:798][975]TimingProfiler: Shutdown
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module TraceServices (727)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (724)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (722)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module InputBindingEditor (720)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module MergeActors (718)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (716)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module LocalizationService (715)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module HardwareTargeting (712)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (710)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module UndoHistory (708)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module XmlParser (706)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module Blutility (704)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (702)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (701)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (698)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (697)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module SettingsEditor (694)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module ProjectLauncher (692)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module SessionFrontend (690)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module ProfilerClient (688)
+[2022.09.21-08.45.46:798][975]LogModuleManager: Shutting down and abandoning module DeviceManager (686)
+[2022.09.21-08.45.46:799][975]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (685)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module AutomationController (682)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module AutomationWindow (680)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module Layers (678)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (676)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module DetailCustomizations (674)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module PackagesDialog (672)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (670)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module Persona (668)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (667)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module AnimGraph (665)
+[2022.09.21-08.45.46:832][975]LogModuleManager: Shutting down and abandoning module Kismet (662)
+[2022.09.21-08.45.46:857][975]LogModuleManager: Shutting down and abandoning module KismetWidgets (661)
+[2022.09.21-08.45.46:857][975]LogModuleManager: Shutting down and abandoning module GraphEditor (658)
+[2022.09.21-08.45.46:857][975]LogModuleManager: Shutting down and abandoning module StructViewer (656)
+[2022.09.21-08.45.46:857][975]LogModuleManager: Shutting down and abandoning module ClassViewer (654)
+[2022.09.21-08.45.46:860][975]LogModuleManager: Shutting down and abandoning module Toolbox (652)
+[2022.09.21-08.45.46:860][975]LogModuleManager: Shutting down and abandoning module ModuleUI (650)
+[2022.09.21-08.45.46:860][975]LogModuleManager: Shutting down and abandoning module OutputLog (648)
+[2022.09.21-08.45.46:869][975]LogModuleManager: Shutting down and abandoning module GammaUI (646)
+[2022.09.21-08.45.46:869][975]LogModuleManager: Shutting down and abandoning module Documentation (644)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module LiveCoding (642)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module LevelSequence (640)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (638)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module MovieScene (636)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (634)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module LauncherPlatform (632)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module AnalyticsET (630)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module PortalServices (628)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module PortalRpc (626)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module MessagingRpc (624)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (622)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module AudioMixerCore (621)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module AIModule (618)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module GameplayDebugger (617)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module AITestSuite (615)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module NavigationSystem (613)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (610)
+[2022.09.21-08.45.46:872][975]LogModuleManager: Shutting down and abandoning module ProfilerService (608)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module TaskGraph (606)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (604)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module OculusEditor (602)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module OculusInput (600)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (598)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (596)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (594)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module SynthesisEditor (590)
+[2022.09.21-08.45.47:085][975]LogModuleManager: Shutting down and abandoning module Synthesis (588)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (586)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (584)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module TakeSequencer (582)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module TakeMovieScene (580)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module OpenXREditor (578)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (576)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GooglePAD (574)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ScreenshotTools (572)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module EditableMesh (570)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (568)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module CableComponent (566)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AudioCapture (564)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (563)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AssetTags (560)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (558)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (556)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AppleImageUtils (554)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AndroidPermission (552)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (550)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (548)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (546)
+[2022.09.21-08.45.47:086][975]LogOpenImageDenoise: OIDN shutting down
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (544)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MotoSynth (542)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MeshConversion (540)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module DynamicMesh (538)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (536)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometricObjects (534)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module TemplateSequence (532)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (530)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (529)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (526)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (524)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (522)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (520)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MediaCompositing (518)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ImgMedia (516)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (514)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ChaosNiagara (512)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module FractureEditor (510)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (509)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (506)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module BackChannel (504)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (502)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AutomationUtils (500)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AlembicImporter (498)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module AlembicLibrary (497)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCache (496)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (495)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (490)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (488)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (486)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (484)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (482)
+[2022.09.21-08.45.47:086][975]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (480)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (478)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module UObjectPlugin (476)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (474)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (472)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (470)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module PluginUtils (468)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (466)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (464)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module GitSourceControl (462)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module SourceControl (461)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (458)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (456)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (454)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module PluginBrowser (452)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (450)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (448)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (446)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (444)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module CurveEditorTools (442)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (440)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module CryptoKeys (438)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (436)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (434)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (432)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (430)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (428)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (426)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (424)
+[2022.09.21-08.45.47:087][975]LogModuleManager: Shutting down and abandoning module LiveLink (422)
+[2022.09.21-08.45.47:564][975]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (420)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (418)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module Paper2DEditor (416)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (414)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (412)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (410)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module SoundFields (408)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module SignificanceManager (406)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (404)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (402)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (400)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (396)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (394)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (392)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (390)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module ActorSequence (388)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (386)
+[2022.09.21-08.45.47:565][975]LogModuleManager: Shutting down and abandoning module UdpMessaging (384)
+[2022.09.21-08.45.47:666][975]LogModuleManager: Shutting down and abandoning module TcpMessaging (382)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (380)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (378)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (376)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (374)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (372)
+[2022.09.21-08.45.47:766][975]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (370)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (368)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (366)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (364)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapController (362)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (360)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module MagicLeapAR (358)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (356)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module Niagara (354)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module SignalProcessing (353)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module NiagaraCore (348)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (346)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module AnimationSharing (344)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (342)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (340)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module FacialAnimation (338)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module DataValidation (336)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (334)
+[2022.09.21-08.45.47:766][975]LogModuleManager: Shutting down and abandoning module LevelEditor (333)
+[2022.09.21-08.45.47:768][975]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (332)
+[2022.09.21-08.45.47:768][975]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (330)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module MainFrame (328)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module HotReload (327)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module ToolMenus (323)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module ContentBrowser (321)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module ContentBrowserData (320)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module TreeMap (317)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module GameplayCameras (314)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (312)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module Paper2D (310)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (308)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (306)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (304)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module PacketHandler (302)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (300)
+[2022.09.21-08.45.47:769][975]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (298)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module MediaAssets (296)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module Overlay (294)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module OverlayEditor (293)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module VREditor (290)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module StringTableEditor (288)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (286)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (284)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module FunctionalTesting (282)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (280)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (279)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module MessageLog (273)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2022.09.21-08.45.47:770][975]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (256)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (254)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module XAudio2 (252)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module Networking (250)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module Core (248)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module MaterialEditor (246)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module MovieSceneTools (244)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module CurveEditor (243)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module Sequencer (241)
+[2022.09.21-08.45.47:771][975]LogModuleManager: Shutting down and abandoning module EditorStyle (240)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module MeshUtilities (232)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (231)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (230)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (229)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (227)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (225)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (223)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module MaterialBaking (219)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (214)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module DerivedDataCache (212)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module TargetPlatform (210)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (209)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (207)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (205)
+[2022.09.21-08.45.47:773][975]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (203)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (201)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (199)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (197)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (195)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (193)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (191)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (189)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (187)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module ImageWrapper (186)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (183)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (181)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (177)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (175)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (171)
+[2022.09.21-08.45.47:774][975]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2022.09.21-08.45.47:778][975]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (167)
+[2022.09.21-08.45.47:778][975]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (165)
+[2022.09.21-08.45.47:778][975]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (163)
+[2022.09.21-08.45.47:778][975]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (161)
+[2022.09.21-08.45.47:778][975]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (159)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (157)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (155)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (153)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (151)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (149)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (147)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (145)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module Messaging (143)
+[2022.09.21-08.45.47:786][975]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (141)
+[2022.09.21-08.45.47:789][975]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (139)
+[2022.09.21-08.45.47:804][975]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (137)
+[2022.09.21-08.45.47:804][975]LogModuleManager: Shutting down and abandoning module D3D11RHI (134)
+[2022.09.21-08.45.47:804][975]LogModuleManager: Shutting down and abandoning module InputCore (132)
+[2022.09.21-08.45.47:804][975]LogModuleManager: Shutting down and abandoning module Settings (130)
+[2022.09.21-08.45.47:804][975]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (128)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module PhysXCooking (126)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (122)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (121)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module AVEncoder (120)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (116)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module SteamVRInput (114)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2022.09.21-08.45.47:805][975]LogHMD: Freeing OpenVRDLLHandle.
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module AISupportModule (108)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (106)
+[2022.09.21-08.45.47:805][975]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (104)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module OpenXRAR (102)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module AugmentedReality (101)
+[2022.09.21-08.45.47:805][975]LogModuleManager: Shutting down and abandoning module OpenXRHMD (98)
+[2022.09.21-08.45.47:809][975]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.09.21-08.45.47:809][975]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.09.21-08.45.47:809][975]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2022.09.21-08.45.47:809][975]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2022.09.21-08.45.47:809][975]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2022.09.21-08.45.47:810][975]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2022.09.21-08.45.47:810][975]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2022.09.21-08.45.47:841][975]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2022.09.21-08.45.47:841][975]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.09.21-08.45.47:841][975]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B78C4CC52-4BD1-0C76-B573-45AACE63FD70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=0e34ccdd4505091c22f9f2a28f772479%7Cf4b595e6e0ad464382e56921bb426052%7Ce8416373-c958-46ed-9a3e-e607096291af&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.09.21-08.45.47:841][975]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.09.21-08.45.47:847][975]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2022.09.21-08.45.47:849][975]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.09.21-08.45.47:851][975]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.09.21-08.45.47:851][975]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2022.09.21-08.45.47:851][975]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module ChaosCloth (64)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module MLSDK (62)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module PixWinPlugin (54)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.09.21-08.45.47:852][975]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.09.21-08.45.47:853][975]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.09.21-08.45.47:853][975]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.09.21-08.45.47:853][975]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.09.21-08.45.47:854][975]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.09.21-08.45.47:854][975]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.09.21-08.45.47:854][975]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.09.21-08.45.47:854][975]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.09.21-08.45.47:862][975]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.09.21-08.45.47:862][975]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.09.21-08.45.47:899][975]LogD3D11RHI: Shutdown
+[2022.09.21-08.45.47:899][975]LogD3D11RHI: CleanupD3DDevice
+[2022.09.21-08.45.47:908][975]LogExit: Exiting.
+[2022.09.21-08.45.47:925][975]Log file closed, 09/21/22 17:45:47
